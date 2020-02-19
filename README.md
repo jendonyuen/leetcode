@@ -17,6 +17,7 @@ My leetcode solutions.
 |-      |-      |-          |
 |[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic-Programming-动态规划   |climbing-stairs-爬楼梯|  
 |[0174](./0174-dungeon-game-地下城游戏/)        |Dynamic-Programming-动态规划   |dungeon-game-地下城游戏|  
+|[0198](./0198-house-robber-打家劫舍/)          |Dynamic-Programming-动态规划   |house-robber-打家劫舍|  
 |[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir-Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
 |[0175](./0175-combine-two-tables-组合两个表/)          |SQL                                |combine-two-tables-组合两个表      |  
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit-Operation-位运算                |power-of-four-4的次幂              |
