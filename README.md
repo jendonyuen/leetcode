@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics
 |2020.02.21 |   |  
 |-----------|---|
-|C++        |30 |  
+|C++        |31 |  
 |Python3    |8  |  
 |JavaScript |2  |  
 |Java       |2  |  
@@ -22,6 +22,7 @@ My leetcode solutions.
 |[0175](./0175-combine-two-tables-组合两个表/)          |SQL                                |combine-two-tables-组合两个表      |  
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit-Operation-位运算                |power-of-four-4的次幂              |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit-Operation-位运算<br>DFS-深度优先搜索 |1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和 |  
+|[0141](./0141-linked-list-cycle-环形链表/)  |Fast and Slow Pointer-快慢指针 |0141-linked-list-cycle-环形链表 |  
 
 #### TODO  
 [1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;  
