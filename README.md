@@ -4,9 +4,9 @@
 My leetcode solutions.  
 
 #### Statistics
-|2020.02.20 |   |  
+|2020.02.21 |   |  
 |-----------|---|
-|C++        |29 |  
+|C++        |30 |  
 |Python3    |8  |  
 |JavaScript |2  |  
 |Java       |2  |  
