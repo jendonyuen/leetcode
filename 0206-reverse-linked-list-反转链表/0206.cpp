@@ -13,10 +13,8 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        if (!head || !head->next) return head;
-        ListNode* p1 = head;
-        ListNode* p2 = head->next;
-        p1->next = NULL;
+        ListNode* p1 = NULL;
+        ListNode* p2 = head;
 
         while(p2) {
             // change value
