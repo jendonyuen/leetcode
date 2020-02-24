@@ -4,6 +4,11 @@
 #         self.val = x
 #         self.next = None
 
+# 如果存在相交，相交点之后的长度将相同
+# 将A的尾部拼接到B的头部，B的尾部拼接到A的头部
+# 采用双指针分别遍历两个拼接后的链表
+# 指针将在交点处相遇
+
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         if not headA or not headB:
