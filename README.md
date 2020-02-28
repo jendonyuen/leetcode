@@ -7,7 +7,7 @@ My leetcode solutions.
 |2020.02.27 |   |  
 |-----------|---|
 |C++        |37 |  
-|Python3    |14 |  
+|Python3    |15 |  
 |JavaScript |2  |  
 |Java       |2  |  
 |SQL        |1  |  
@@ -22,6 +22,7 @@ My leetcode solutions.
 |[0175](./0175-combine-two-tables-组合两个表/)          |SQL                                |combine-two-tables-组合两个表      |  
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit-Operation-位运算                |power-of-four-4的次幂              |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit-Operation-位运算<br>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br>从根到叶的二进制数之和 |  
+|[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索 |validate-binary-search-tree<br>验证二叉搜索树 |  
 |[0141](./0141-linked-list-cycle-环形链表/)                 |Fast and Slow Pointer-快慢指针 |linked-list-cycle-环形链表         |  
 |[0202](./0202-happy-number-快乐数/)                        |Fast and Slow Pointer-快慢指针 |happy-number-快乐数                |  
 |[0234](./0234-palindrome-linked-list-回文链表/)            |Fast and Slow Pointer-快慢指针 |palindrome-linked-list-回文链表    |  
