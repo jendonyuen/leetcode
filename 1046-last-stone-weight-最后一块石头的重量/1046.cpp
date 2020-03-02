@@ -23,7 +23,7 @@ public:
         // for (auto &a : stones) {
         //     cout << a << ",";
         // }
-        cout << endl;
+        // cout << endl;
         if (stones.size() > 0) {
             return stones[0];
         }
