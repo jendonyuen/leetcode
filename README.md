@@ -4,10 +4,10 @@
 My leetcode solutions.  
 
 #### Statistics
-|2020.03.02 |   |  
+|2020.03.03 |   |  
 |-----------|---|
 |C++        |40 |  
-|Python3    |16 |  
+|Python3    |17 |  
 |JavaScript |3  |  
 |Java       |2  |  
 |SQL        |1  |  
@@ -15,11 +15,11 @@ My leetcode solutions.
 #### Typical example links
 |ID     |Tag    |Problem    |
 |-      |-      |-          |
-|[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic-Programming-动态规划   |climbing-stairs-爬楼梯|  
-|[0174](./0174-dungeon-game-地下城游戏/)        |Dynamic-Programming-动态规划   |dungeon-game-地下城游戏|  
-|[0198](./0198-house-robber-打家劫舍/)          |Dynamic-Programming-动态规划   |house-robber-打家劫舍|  
+|[0074](./0074-search-a-2d-matrix-搜索二维矩阵/)|Binary-Search-二分查找         |search-a-2d-matrix-搜索二维矩阵    |  
+|[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic-Programming-动态规划   |climbing-stairs-爬楼梯             |  
+|[0174](./0174-dungeon-game-地下城游戏/)        |Dynamic-Programming-动态规划   |dungeon-game-地下城游戏            |  
+|[0198](./0198-house-robber-打家劫舍/)          |Dynamic-Programming-动态规划   |house-robber-打家劫舍              |  
 |[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir-Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
-|[0175](./0175-combine-two-tables-组合两个表/)          |SQL                                |combine-two-tables-组合两个表      |  
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit-Operation-位运算                |power-of-four-4的次幂              |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit-Operation-位运算<br>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br>从根到叶的二进制数之和 |  
 |[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索 |validate-binary-search-tree<br>验证二叉搜索树 |  
@@ -29,6 +29,7 @@ My leetcode solutions.
 |[0160](./0160-intersection-of-two-linked-lists-相交链表/)  |Double Pointer-双指针 |intersection-of-two-linked-lists-相交链表       |  
 |[0206](./0206-reverse-linked-list-反转链表/)               |Double Pointer-双指针 |reverse-linked-list-反转链表                    |  
 |[1046](./1046-last-stone-weight-最后一块石头的重量/)        |Heap-堆               |last-stone-weight-最后一块石头的重量             |  
+|[0175](./0175-combine-two-tables-组合两个表/)              |SQL                   |combine-two-tables-组合两个表                   |  
 
 #### TODO  
 ~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~
