@@ -22,7 +22,6 @@ class Solution:
         time = 0
         lastGoodOrgsNumber = -1
         while len(goodOrgs) > 0:
-            # print("len:", len(goodOrgs), lastGoodOrgsNumber)
             if lastGoodOrgsNumber == len(goodOrgs):
                 # 无法腐烂完所有橘子
                 return -1
@@ -32,7 +31,6 @@ class Solution:
             newBadOrgs = {}
 
             for y, x in badOrgs.keys():
-                # print(y, x)
                 delGoodOrgs = []
                 if y > 0:
                     if (y-1, x) in goodOrgs.keys():
