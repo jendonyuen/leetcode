@@ -4,10 +4,10 @@
 My leetcode solutions.  
 
 #### Statistics
-|2020.03.04 |   |  
+|2020.03.05 |   |  
 |-----------|---|
 |C++        |42 |  
-|Python3    |18 |  
+|Python3    |19 |  
 |JavaScript |3  |  
 |Java       |2  |  
 |SQL        |1  |  
