@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics
 |2020.03.10 |   |  
 |-----------|---|
-|C++        |45 |  
+|C++        |46 |  
 |Python3    |20 |  
 |JavaScript |3  |  
 |Java       |2  |  
@@ -29,6 +29,7 @@ My leetcode solutions.
 |[0160](./0160-intersection-of-two-linked-lists-相交链表/)  |Double Pointer-双指针 |intersection-of-two-linked-lists-相交链表       |  
 |[0206](./0206-reverse-linked-list-反转链表/)               |Double Pointer-双指针 |reverse-linked-list-反转链表                    |  
 |[1046](./1046-last-stone-weight-最后一块石头的重量/)        |Heap-堆               |last-stone-weight-最后一块石头的重量             |  
+|[1042](./1042-flower-planting-with-no-adjacent-不邻接植花/)|Graph-图              |flower-planting-with-no-adjacent-不邻接植花     |  
 |[0175](./0175-combine-two-tables-组合两个表/)              |SQL                   |combine-two-tables-组合两个表                   |  
 
 #### TODO  
