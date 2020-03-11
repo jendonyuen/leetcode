@@ -7,7 +7,7 @@ My leetcode solutions.
 |2020.03.11 |   |  
 |-----------|---|
 |C++        |46 |  
-|Python3    |22 |  
+|Python3    |23 |  
 |JavaScript |3  |  
 |Java       |2  |  
 |SQL        |1  |  
@@ -19,6 +19,7 @@ My leetcode solutions.
 |[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic-Programming-动态规划   |climbing-stairs-爬楼梯             |  
 |[0174](./0174-dungeon-game-地下城游戏/)        |Dynamic-Programming-动态规划   |dungeon-game-地下城游戏            |  
 |[0198](./0198-house-robber-打家劫舍/)          |Dynamic-Programming-动态规划   |house-robber-打家劫舍              |  
+|[0134](./0134-gas-station-加油站/)             |Greedy-贪心算法                |gas-station-加油站                 |  
 |[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir-Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit-Operation-位运算                |power-of-four-4的次幂              |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit-Operation-位运算<br>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br>从根到叶的二进制数之和 |  
