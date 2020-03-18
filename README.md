@@ -7,7 +7,7 @@ My leetcode solutions.
 |2020.03.17 |   |  
 |-----------|---|
 |C++        |53 |  
-|Python3    |25 |  
+|Python3    |26 |  
 |JavaScript |3  |  
 |Java       |2  |  
 |SQL        |1  |  
