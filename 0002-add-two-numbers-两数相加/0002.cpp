@@ -9,34 +9,35 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int sum = 0;
-        bool isCarry = false;
-        ListNode *lrt = NULL, *p;
-        while(l1 != NULL || l2 != NULL || isCarry!=0){
-            sum = 0;
-            if(l1 != NULL){
-                sum += l1->val; 
+        bool carry = false;
+        ListNode* rtn = new ListNode(0);
+        ListNode* cur = rtn;
+
+        while (l1 || l2) {
+            int val = 0;
+            if (l1) {
+                val += l1->val;
                 l1 = l1->next;
             }
-            if(l2 != NULL){
-                sum += l2->val; 
-                l2 = l2->next; 
+            if (l2) {
+                val += l2->val;
+                l2 = l2->next;
             }
-            if(isCarry == true)++sum;
-            isCarry = false;
-            if(sum>=10){
-                sum -= 10;
-                isCarry = true;
+
+            if (carry) val++;
+            if (val >= 10) {
+                val -= 10;
+                carry = true;
+            } else {
+                carry = false;
             }
-            ListNode *lTemp = new ListNode(sum);
-            if(lrt != NULL){
-                p->next = lTemp;
-                p = p->next;
-            }else{
-                lrt = lTemp;
-                p = lTemp;
-            }
+
+            cur->next = new ListNode(val);              // 先指向创建的新节点
+            cur = cur->next;                            // 再将当前指针移到新节点
         }
-        return lrt;
+        
+        if (carry) cur->next = new ListNode(1);
+
+        return rtn->next;
     }
 };
