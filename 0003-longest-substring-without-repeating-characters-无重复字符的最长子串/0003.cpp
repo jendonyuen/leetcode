@@ -1,28 +1,20 @@
+// int [26] 用于字母 ‘a’ - ‘z’ 或 ‘A’ - ‘Z’
+// int [128] 用于ASCII码
+// int [256] 用于扩展ASCII码
+
 class Solution {
-    string t;
-    int checkRepeat(char &c) {
-        for (int i = 0; i < t.size(); ++i) {
-            if (t[i] == c) {
-                return i;
-            }
-        }
-        return -1;
-    }
 public:
     int lengthOfLongestSubstring(string s) {
-        if (s.size() <= 1) return s.size();
-        int maxLen = 1;
-        t.push_back(s[0]);
-        for (int i = 1; i < s.size(); ++i) {
-            int j = checkRepeat(s[i]);
-            if (j != -1) {
-                t = t.substr(j + 1, t.size());
-            } 
-            t.push_back(s[i]);
-            if (maxLen < t.size()) {
-                maxLen = t.size();
-            }
+        int len = 0;
+        auto beg = -1;
+        vector<int> table(128, -1);
+
+        for (int p = 0; p != s.size(); ++p) {
+            beg = max(table[s[p]], beg);
+            table[s[p]] = p;
+            len = max(p - beg, len);
         }
-        return maxLen;
+
+        return len;
     }
 };
