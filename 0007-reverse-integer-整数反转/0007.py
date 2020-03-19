@@ -1,7 +1,7 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        i = 0;
-        ret = 0;
+        i = 0
+        ret = 0
         while (x!=0):
             if (x > 0):
                 i = x % 10
