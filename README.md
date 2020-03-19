@@ -35,3 +35,4 @@ My leetcode solutions.
 
 #### TODO  
 ~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~
+[0268] To use bit operation; 学习使用位运算来实现;  
