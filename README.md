@@ -4,10 +4,10 @@
 My leetcode solutions.  
 
 #### Statistics
-|2020.03.19 |   |  
+|2020.03.20 |   |  
 |-----------|---|
-|C++        |62 |  
-|Python3    |28 |  
+|C++        |63 |  
+|Python3    |31 |  
 |JavaScript |3  |  
 |Java       |2  |  
 |SQL        |1  |  
@@ -34,6 +34,6 @@ My leetcode solutions.
 |[0175](./0175-combine-two-tables-组合两个表/)              |SQL                   |combine-two-tables-组合两个表                   |  
 
 #### TODO  
-~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~
+~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~  
 [0268] To use bit operation; 学习使用位运算来实现;  
 [0189] To use reverse;  学习使用反转来实现;  
