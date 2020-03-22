@@ -12,6 +12,7 @@
 
 class Solution {
 public:
+    // 迭代
     ListNode* reverseList(ListNode* head) {
         ListNode* p1 = NULL;
         ListNode* p2 = head;
@@ -28,4 +29,15 @@ public:
         return p1;
 
     }
+
+    /*
+    // 递归
+    ListNode* reverseList(ListNode* head) {
+        if (!head || !head->next) return head;
+        ListNode* node = reverseList(head->next);
+        head->next->next = head;
+        head->next = NULL;
+        return node;
+    }
+    */
 };
