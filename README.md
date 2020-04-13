@@ -41,3 +41,4 @@ My leetcode solutions.
 ~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~  
 [0268] To use bit operation; 学习使用位运算来实现;  
 [0189] To use reverse;  学习使用反转来实现;  
+[0023] [0355] To use priority queue; 学习使用优先队列来实现;  
