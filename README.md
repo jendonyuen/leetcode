@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics
 |2020.04.13 |   |  
 |-----------|---|
-|C++        |99 |  
+|C++        |100|  
 |Python3    |42 |  
 |JavaScript |4  |  
 |Java       |2  |  
