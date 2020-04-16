@@ -1,13 +1,10 @@
-bool compairIntervals(const vector<int> &a, const vector<int> &b) {
-    return a[0] < b[0];
-}
-
-
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         vector<vector<int>> v;
-        sort(intervals.begin(), intervals.end(), compairIntervals);
+        sort(intervals.begin(), intervals.end(), [](const vector<int> &a, const vector<int> &b) {
+            return a[0] < b[0];
+        });
         for (int i = 0; i < intervals.size(); i++) {
             int beg = intervals[i][0];
             int end = intervals[i][1];
