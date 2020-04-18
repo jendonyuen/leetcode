@@ -1,15 +1,20 @@
+// 第42题为本题的进阶版, 解法类似
+
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        int vmax=0,vtemp = 0;
-        for(int i = 0;i!=height.size()-1;++i){
-            for(int j = i+1;j!=height.size();++j){
-                vtemp = min(height[i],height[j])*(j-i);
-                if(vtemp>vmax){
-                    vmax = vtemp;
-                }
+        if (height.size() < 2) return 0;
+        int maxWater = 0;
+        int left = 0, right = height.size() - 1;
+        while (left < right) {
+            int currWater = min(height[left], height[right]) * (right - left);
+            maxWater = currWater > maxWater ? currWater : maxWater;
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
             }
         }
-        return vmax;
+        return maxWater;
     }
 };
