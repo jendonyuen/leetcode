@@ -4,7 +4,7 @@
 My leetcode solutions.  
 
 #### Statistics
-|2020.05.08 |   |  
+|language   |num|  
 |-----------|---|
 |C++        |110|  
 |Python3    |42 |  
