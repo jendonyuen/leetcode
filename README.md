@@ -15,7 +15,7 @@ My leetcode solutions.
 #### Typical example links
 |ID     |Tag    |Problem    |
 |-      |-      |-          |
-|[0050](./0050-powx-n-Pow(x, n)/)               |Binary Search-二分查找        |powx-n-Pow(x, n)                   |  
+|[0050](./0050-powx-n-Pow(x,n)/)               |Binary Search-二分查找        |powx-n-Pow(x, n)                   |  
 |[0074](./0074-search-a-2d-matrix-搜索二维矩阵/)|Binary Search-二分查找         |search-a-2d-matrix-搜索二维矩阵    |  
 |[0912](./0912-sort-an-array-排序数组/)         |Quick Sort-快速排序            |sort-an-array-排序数组             |  
 |[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic Programming-动态规划   |climbing-stairs-爬楼梯             |  
