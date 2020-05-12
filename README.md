@@ -43,6 +43,6 @@ My leetcode solutions.
 #### TODO  
 ~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~  
 ~~[0268] To use bit operation; 学习使用位运算来实现;~~  
-[0189] To use reverse;  学习使用反转来实现;  
-[0023] [0355] To use priority queue; 学习使用优先队列来实现;  
-[0046] To use backtrack; 学习使用回溯法来实现;  
+~~[0189] To use reverse;  学习使用反转法;~~  
+[0023] [0355] To use priority queue; 使用优先队列来实现;  
+[0046] To use backtrack; 使用回溯法来实现;  

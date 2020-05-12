@@ -1,5 +1,42 @@
 class Solution {
 public:
+    // 反转法
+    void rotate(vector<int>& nums, int k) {
+        if (nums.size() <= 1) return;
+        // 注意判断k是否超出数组长度
+        if (k > nums.size()) k = k % nums.size();
+
+        // 第一次翻转[0, n]整个数组
+        int beg = -1, end = nums.size(), t;
+        while (++beg < --end) {
+            t = nums[beg];
+            nums[beg] = nums[end];
+            nums[end] = t;
+        }  
+        // for (auto & a: nums) cout << a << ","; cout << endl; 
+        
+        // 第二次翻转[0, k-1]部分数组
+        beg = -1;
+        end = k;
+        while (++beg < --end) {
+            t = nums[beg];
+            nums[beg] = nums[end];
+            nums[end] = t;
+        }
+        // for (auto & a: nums) cout << a << ","; cout << endl; 
+        
+        // 第三次翻转[k, n-1]部分数组
+        beg = k - 1;
+        end = nums.size();
+        while (++beg < --end) {
+            t = nums[beg];
+            nums[beg] = nums[end];
+            nums[end] = t;
+        }
+        // for (auto & a: nums) cout << a << ","; cout << endl; 
+    }
+
+    /* 环状替换法(类似换座位)
     void rotate(vector<int>& nums, int k) {
         if (nums.size() <= 1) return;
         int len = nums.size();
@@ -23,4 +60,5 @@ public:
             p = q;
         }
     }
+    */
 };
