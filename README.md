@@ -12,7 +12,7 @@ My leetcode solutions.
 |Java       |2  |  
 |SQL        |1  |  
 
-#### Typical example links
+#### Typical algorithm example links (典型算法例题链接)
 |ID     |Tag    |Problem    |
 |-      |-      |-          |
 |[0050](./0050-powx-n-Pow(x,n)/)               |Binary Search-二分查找        |powx-n-Pow(x, n)                   |  
@@ -24,8 +24,9 @@ My leetcode solutions.
 |[0221](./0221-maximal-square-最大正方形/)      |Dynamic Programming-动态规划   |maximal-square-最大正方形          |  
 |[0134](./0134-gas-station-加油站/)             |Greedy 贪心算法                |gas-station-加油站                 |  
 |[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
-|[0342](./0342-power-of-four-4的次幂/)                  |Bit Operation-位运算                |power-of-four-4的次幂              |
-|[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit-Operation-位运算<br>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br>从根到叶的二进制数之和 |  
+|[0268](./0268-missing-number-缺失数字/)                |Bit Operation-位运算              |missing-number-缺失数字             |
+|[0342](./0342-power-of-four-4的次幂/)                  |Bit Operation-位运算              |power-of-four-4的次幂               |
+|[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit Operation-位运算<br>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br>从根到叶的二进制数之和 |  
 |[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索 |validate-binary-search-tree<br>验证二叉搜索树 |  
 |[0141](./0141-linked-list-cycle-环形链表/)                 |Fast and Slow Pointer-快慢指针 |linked-list-cycle-环形链表             |  
 |[0202](./0202-happy-number-快乐数/)                        |Fast and Slow Pointer-快慢指针 |happy-number-快乐数                    |  
@@ -41,7 +42,7 @@ My leetcode solutions.
 
 #### TODO  
 ~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~  
-[0268] To use bit operation; 学习使用位运算来实现;  
+~~[0268] To use bit operation; 学习使用位运算来实现;~~  
 [0189] To use reverse;  学习使用反转来实现;  
 [0023] [0355] To use priority queue; 学习使用优先队列来实现;  
 [0046] To use backtrack; 学习使用回溯法来实现;  
