@@ -34,9 +34,9 @@ My leetcode solutions.
 |[0160](./0160-intersection-of-two-linked-lists-相交链表/)  |Double Pointer-双指针 |intersection-of-two-linked-lists-相交链表       |  
 |[0206](./0206-reverse-linked-list-反转链表/)               |Double Pointer-双指针 |reverse-linked-list-反转链表                    |  
 |[0102](./0102-binary-tree-level-order-traversal-二叉树的层序遍历/)         |Binary Tree-二叉树     |binary-tree-level-order-traversal<br/>二叉树的层序遍历 |  
-|[1046](./1046-last-stone-weight-最后一块石头的重量/)                       |Heap-堆                |last-stone-weight-最后一块石头的重量               |  
-|[0210](./0210-course-schedule-ii-课程表II/)                                |Graph-图               |course-schedule-ii-课程表II     |  
-|[1042](./1042-flower-planting-with-no-adjacent-不邻接植花/)                |Graph-图               |flower-planting-with-no-adjacent<br/>不邻接植花     |  
+|[1046](./1046-last-stone-weight-最后一块石头的重量/)                  |Heap-堆                     |last-stone-weight-最后一块石头的重量               |  
+|[0210](./0210-course-schedule-ii-课程表II/)                          |Graph-图<br/>DFS-深度优先搜索|course-schedule-ii-课程表II     |  
+|[1042](./1042-flower-planting-with-no-adjacent-不邻接植花/)           |Graph-图                   |flower-planting-with-no-adjacent<br/>不邻接植花     |  
 |[0365](./0365-water-and-jug-problem-水壶问题/)                        |Euclidean Algorithm-辗转相除法 |water-and-jug-problem-水壶问题                              |  
 |[1071](./1071-greatest-common-divisor-of-strings-字符串的最大公因子/)  |Euclidean Algorithm-辗转相除法 |greatest-common-divisor-of-strings<br/>字符串的最大公因子     |  
 |[0069](./0069-sqrtx-x的平方根/)                                       |Newton's method-牛顿迭代法     |sqrtx-x的平方根              |
