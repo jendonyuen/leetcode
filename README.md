@@ -3,10 +3,10 @@
 #### Description
 My leetcode solutions.  
 
-#### Statistics
+#### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |117|  
+|C++        |121|  
 |Python3    |42 |  
 |JavaScript |4  |  
 |Java       |2  |  
