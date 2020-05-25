@@ -7,7 +7,7 @@ My leetcode solutions.
 |language   |num|  
 |-----------|---|
 |C++        |121|  
-|Python3    |42 |  
+|Python3    |43 |  
 |JavaScript |4  |  
 |Java       |2  |  
 |SQL        |1  |  
