@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |123|  
+|C++        |124|  
 |Python3    |43 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -31,6 +31,7 @@ My leetcode solutions.
 |[0141](./0141-linked-list-cycle-环形链表/)                 |Fast and Slow Pointer-快慢指针 |linked-list-cycle-环形链表             |  
 |[0202](./0202-happy-number-快乐数/)                        |Fast and Slow Pointer-快慢指针 |happy-number-快乐数                    |  
 |[0234](./0234-palindrome-linked-list-回文链表/)            |Fast and Slow Pointer-快慢指针 |palindrome-linked-list-回文链表        |  
+|[0287](./0287-find-the-duplicate-number-寻找重复数/)        |Fast and Slow Pointer-快慢指针|find-the-duplicate-number-寻找重复数    |  
 |[0160](./0160-intersection-of-two-linked-lists-相交链表/)  |Double Pointer-双指针 |intersection-of-two-linked-lists-相交链表       |  
 |[0206](./0206-reverse-linked-list-反转链表/)               |Double Pointer-双指针 |reverse-linked-list-反转链表                    |  
 |[0102](./0102-binary-tree-level-order-traversal-二叉树的层序遍历/)    |Binary Tree-二叉树          |binary-tree-level-order-traversal<br/>二叉树的层序遍历 |  
