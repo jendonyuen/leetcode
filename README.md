@@ -46,8 +46,8 @@ My leetcode solutions.
 |[0175](./0175-combine-two-tables-组合两个表/)                         |SQL                           |combine-two-tables-组合两个表 |  
 
 #### TODO  
-~~[1046] To learn max-heap/min-heap; 学习使用大顶堆/小顶堆来实现;~~  
-~~[0268] To use bit operation; 学习使用位运算来实现;~~  
-~~[0189] To use reverse;  学习使用反转法;~~  
-[0023] [0355] To use priority queue; 使用优先队列来实现;  
-[0046] To use backtrack; 使用回溯法来实现;  
+~~[1046] max-heap/min-heap; 使用大顶堆/小顶堆实现;~~  
+~~[0268] bit operation; 使用位运算实现;~~  
+~~[0189] reverse;  使用反转法;~~  
+~~[0023] priority queue; 使用优先队列实现;~~ 
+[0046] backtrack; 使用回溯法实现;  
