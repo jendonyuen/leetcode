@@ -29,6 +29,7 @@ public:
     }
 };
 
+/*
 // 使用队列+中序遍历
 class Solution {
     queue<int> q;
@@ -52,6 +53,7 @@ public:
         return q.front();
     }
 };
+*/
 
 // 使用优先队列, 当前值小于队列头时即找到
 /*
