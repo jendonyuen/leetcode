@@ -1,3 +1,31 @@
+class Solution {
+    vector<vector<int>> res;
+    vector<int> v;
+
+    void backTrack(vector<int>& nums, int index) {
+        if (v.size() == nums.size()) {
+            res.push_back(v);
+            return;
+        }
+        // 回溯法, 循环里边套递归
+        // 递归完成后撤销
+        for (int i = index; i < nums.size(); ++i) {
+            v.emplace_back(nums[i]);
+            // 使用交换代替查找
+            swap(nums[index], nums[i]);
+            backTrack(nums, index+1);
+            swap(nums[index], nums[i]);
+            v.pop_back();
+        }
+    }
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        backTrack(nums, 0);
+        return res;
+    }
+};
+
+/*
 // 回溯法
 class Solution {
     vector<vector<int>> res;
@@ -24,6 +52,7 @@ public:
         return res;
     }
 };
+*/
 
 /*
 // 见缝插针法
