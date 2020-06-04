@@ -1,3 +1,32 @@
+// 回溯法
+class Solution {
+    vector<vector<int>> res;
+    vector<int> v;
+
+    void backTrack(vector<int>& nums) {
+        if (v.size() == nums.size()) {
+            res.push_back(v);
+            return;
+        }
+        // 回溯法, 循环里边套递归
+        // 递归完成后撤销
+        for (int i = 0; i < nums.size(); ++i) {
+            if (find(v.begin(), v.end(), nums[i]) == v.end()) {
+                v.push_back(nums[i]);
+            } else continue;
+            backTrack(nums);
+            v.pop_back();
+        }
+    }
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        backTrack(nums);
+        return res;
+    }
+};
+
+/*
+// 见缝插针法
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -24,3 +53,4 @@ public:
         return ans;
     }
 };
+*/

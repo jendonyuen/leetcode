@@ -27,6 +27,7 @@ My leetcode solutions.
 |[0268](./0268-missing-number-缺失数字/)                |Bit Operation-位运算              |missing-number-缺失数字             |
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit Operation-位运算              |power-of-four-4的次幂               |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit Operation-位运算<br/>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br/>从根到叶的二进制数之和 |  
+|[0046](./0046-permutations-全排列/)                        |back track-回溯法 |permutations-全排列 |  
 |[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索 |validate-binary-search-tree<br/>验证二叉搜索树 |  
 |[0141](./0141-linked-list-cycle-环形链表/)                 |Fast and Slow Pointer-快慢指针 |linked-list-cycle-环形链表             |  
 |[0202](./0202-happy-number-快乐数/)                        |Fast and Slow Pointer-快慢指针 |happy-number-快乐数                    |  
@@ -46,8 +47,8 @@ My leetcode solutions.
 |[0175](./0175-combine-two-tables-组合两个表/)                         |SQL                           |combine-two-tables-组合两个表 |  
 
 #### TODO  
-~~[1046] max-heap/min-heap; 使用大顶堆/小顶堆实现;~~  
-~~[0268] bit operation; 使用位运算实现;~~  
+~~[1046] max-heap/min-heap; 使用大顶堆/小顶堆;~~  
+~~[0268] bit operation; 使用位运算;~~  
 ~~[0189] reverse;  使用反转法;~~  
-~~[0023] priority queue; 使用优先队列实现;~~ 
-[0046] backtrack; 使用回溯法实现;  
+~~[0023] priority queue; 使用优先队列;~~  
+~~[0046] backtrack; 使用回溯法;~~  
