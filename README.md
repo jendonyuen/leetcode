@@ -6,8 +6,8 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |147|  
-|Python3    |43 |  
+|C++        |149|  
+|Python3    |44 |  
 |JavaScript |4  |  
 |Java       |2  |  
 |SQL        |1  |  
