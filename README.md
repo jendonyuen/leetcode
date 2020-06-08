@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |149|  
+|C++        |150|  
 |Python3    |44 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -47,8 +47,10 @@ My leetcode solutions.
 |[0175](./0175-combine-two-tables-组合两个表/)                         |SQL                           |combine-two-tables-组合两个表 |  
 
 #### TODO  
-~~[1046] max-heap/min-heap; 使用大顶堆/小顶堆;~~  
-~~[0268] bit operation; 使用位运算;~~  
-~~[0189] reverse;  使用反转法;~~  
-~~[0023] priority queue; 使用优先队列;~~  
-~~[0046] backtrack; 使用回溯法;~~  
+~~[1046] 使用大顶堆/小顶堆;~~  
+~~[0268] 使用位运算;~~  
+~~[0189] 使用反转法;~~  
+~~[0023] 使用优先队列;~~  
+~~[0046] 使用回溯法;~~  
+[0990] 并查集路径压缩优化;  
+[0200] [0547] 使用并查集;   
