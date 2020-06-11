@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |155|  
+|C++        |156|  
 |Python3    |44 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -35,6 +35,7 @@ My leetcode solutions.
 |[0287](./0287-find-the-duplicate-number-寻找重复数/)        |Fast and Slow Pointer-快慢指针|find-the-duplicate-number-寻找重复数    |  
 |[0160](./0160-intersection-of-two-linked-lists-相交链表/)  |Double Pointer-双指针 |intersection-of-two-linked-lists-相交链表       |  
 |[0206](./0206-reverse-linked-list-反转链表/)               |Double Pointer-双指针 |reverse-linked-list-反转链表                    |  
+|[0230](./0230-kth-smallest-element-in-a-bst-二叉搜索树中第K小的元素/)  |Binary Tree-二叉树          |0230-kth-smallest-element-in-a-bst<br/>二叉搜索树中第K小的元素    |
 |[0102](./0102-binary-tree-level-order-traversal-二叉树的层序遍历/)    |Binary Tree-二叉树          |binary-tree-level-order-traversal<br/>二叉树的层序遍历 |  
 |[0105](./0105-construct-binary-tree-from-preorder-and-inorder-traversal-从前序与中序遍历序列构造二叉树/)    |Binary Tree-二叉树          |construct-binary-tree-from-preorder-and-inorder-traversal<br/>从前序与中序遍历序列构造二叉树 |  
 |[0146](./0146-lru-cache-LRU-缓存机制/)                               |Double Linked List-双向链表 |lru-cache-LRU-缓存机制                              |
