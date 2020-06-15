@@ -1,25 +1,42 @@
+/*
+
+假设favoriteCompanies中的第1个清单为[a, b, c]
+第一次用HashMap遍历得知
+"a"出现在第1, 2, 3清单
+"b"出现在第1, 3, 5清单
+"c"出现在第1, 3, 4清单
+显然易见, 第1个清单的每家公司都在第3个清单中出现过，那么第1个清单必为第3个清单的子集;
+
+所以第二次遍历统计每个清单中，其他清单下标出现的次数，如果出现次数==该清单的size, 则该清单必为其子集。
+
+题解链接：https://leetcode-cn.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/solution/c-hen-hao-li-jie-de-hashmap-tong-ji-gong-si-ming-c/
+
+*/
+
+
 class Solution {
 public:
-    // hash_map + 数组
-    // 运行时间 564ms
+    // HashMap + 数组 
+    // 运行时间532ms
     vector<int> peopleIndexes(vector<vector<string>>& favoriteCompanies) {
-        // <key: company, value: 每个公司出现在名单的索引>
+        // HashMap <key: 公司名, value: 每个公司出现过的清单下标>
         unordered_map<string, vector<int>> companyListIndex;
         for (int i = 0; i < favoriteCompanies.size(); ++i) {
-            for (auto &cpn: favoriteCompanies[i]) {
-                companyListIndex[cpn].push_back(i);
+            for (auto &company: favoriteCompanies[i]) {
+                companyListIndex[company].push_back(i);
             }
         }
 
         vector<int> res;
         for (int i = 0; i < favoriteCompanies.size(); ++i) {
             bool isSubset = false;
-            // 数组 [名单的索引] = 名单出现的次数
-            int listIndexNumber[100] = {0};
-            for (auto &cpn: favoriteCompanies[i]) {
-                for (auto &index: companyListIndex[cpn]) {
-                    if (index != i) listIndexNumber[index]++;
-                    if (listIndexNumber[index] == favoriteCompanies[i].size()) {
+            // [清单下标] = 对应下标出现的次数
+            int number[100] = {0};
+            for (auto &company: favoriteCompanies[i]) {
+                if (companyListIndex[company].size() == 1) break;
+                for (auto &index: companyListIndex[company]) {
+                    if (index != i) number[index]++;
+                    if (number[index] == favoriteCompanies[i].size()) {
                         isSubset = true;
                         break;
                     }
