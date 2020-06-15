@@ -6,13 +6,13 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |160|  
-|Python3    |44 |  
+|C++        |164|  
+|Python3    |45 |  
 |JavaScript |4  |  
 |Java       |2  |  
 |SQL        |1  |  
 
-#### Typical algorithm example (典型算法例题)
+#### Template problem (模板题)
 |ID     |Tag    |Problem    |
 |-      |-      |-          |
 |[0050](./0050-powx-n-Pow(x,n)/)               |Binary Search-二分查找        |powx-n-Pow(x, n)                   |  
@@ -53,6 +53,6 @@ My leetcode solutions.
 ~~[0189] 使用反转法;~~  
 ~~[0023] 使用优先队列;~~  
 ~~[0046] 使用回溯法;~~  
-~~[0990] 并查集路径压缩优化;~~  
+~~[0990] 并查集路径按秩合并;~~  
 [0200] [0547] 使用并查集;   
 [0089] 使用位运算;  
