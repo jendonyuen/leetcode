@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |166|  
+|C++        |167|  
 |Python3    |45 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -45,7 +45,7 @@ My leetcode solutions.
 |[0365](./0365-water-and-jug-problem-水壶问题/)                        |Euclidean Algorithm-辗转相除法 |water-and-jug-problem-水壶问题                              |  
 |[1071](./1071-greatest-common-divisor-of-strings-字符串的最大公因子/)  |Euclidean Algorithm-辗转相除法 |greatest-common-divisor-of-strings<br/>字符串的最大公因子     |  
 |[0069](./0069-sqrtx-x的平方根/)                                       |Newton's method-牛顿迭代法     |sqrtx-x的平方根              |
-|[1483](./1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先/)        |doubly-倍增                   |kth-ancestor-of-a-tree-node<br/>树节点的第 K 个祖先 |  
+|[1483](./1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先/)         |Doubly-倍增                   |kth-ancestor-of-a-tree-node<br/>树节点的第 K 个祖先 |  
 |[0175](./0175-combine-two-tables-组合两个表/)                         |SQL                           |combine-two-tables-组合两个表 |  
 
 #### TODO  
