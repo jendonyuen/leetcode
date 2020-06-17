@@ -35,7 +35,7 @@ My leetcode solutions.
 |[0287](./0287-find-the-duplicate-number-寻找重复数/)        |Fast and Slow Pointer-快慢指针|find-the-duplicate-number-寻找重复数    |  
 |[0160](./0160-intersection-of-two-linked-lists-相交链表/)  |Double Pointer-双指针 |intersection-of-two-linked-lists-相交链表       |  
 |[0206](./0206-reverse-linked-list-反转链表/)               |Double Pointer-双指针 |reverse-linked-list-反转链表                    |  
-|[0230](./0230-kth-smallest-element-in-a-bst-二叉搜索树中第K小的元素/)  |Binary Tree-二叉树          |0230-kth-smallest-element-in-a-bst<br/>二叉搜索树中第K小的元素    |
+|[0230](./0230-kth-smallest-element-in-a-bst-二叉搜索树中第K小的元素/)  |Binary Tree-二叉树          |kth-smallest-element-in-a-bst<br/>二叉搜索树中第K小的元素    |
 |[0102](./0102-binary-tree-level-order-traversal-二叉树的层序遍历/)    |Binary Tree-二叉树          |binary-tree-level-order-traversal<br/>二叉树的层序遍历 |  
 |[0105](./0105-construct-binary-tree-from-preorder-and-inorder-traversal-从前序与中序遍历序列构造二叉树/)    |Binary Tree-二叉树          |construct-binary-tree-from-preorder-and-inorder-traversal<br/>从前序与中序遍历序列构造二叉树 |  
 |[0146](./0146-lru-cache-LRU-缓存机制/)                               |Double Linked List-双向链表 |lru-cache-LRU-缓存机制                              |
@@ -45,6 +45,7 @@ My leetcode solutions.
 |[0365](./0365-water-and-jug-problem-水壶问题/)                        |Euclidean Algorithm-辗转相除法 |water-and-jug-problem-水壶问题                              |  
 |[1071](./1071-greatest-common-divisor-of-strings-字符串的最大公因子/)  |Euclidean Algorithm-辗转相除法 |greatest-common-divisor-of-strings<br/>字符串的最大公因子     |  
 |[0069](./0069-sqrtx-x的平方根/)                                       |Newton's method-牛顿迭代法     |sqrtx-x的平方根              |
+|[1483](./1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先/)        |doubly-倍增                   |kth-ancestor-of-a-tree-node<br/>树节点的第 K 个祖先 |  
 |[0175](./0175-combine-two-tables-组合两个表/)                         |SQL                           |combine-two-tables-组合两个表 |  
 
 #### TODO  
