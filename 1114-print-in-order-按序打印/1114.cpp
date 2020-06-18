@@ -1,4 +1,34 @@
 class Foo {
+    int i;
+public:
+    Foo() {
+        i = 1;
+    }
+
+    void first(function<void()> printFirst) {
+        printFirst();
+        i = 2;
+    }
+
+    void second(function<void()> printSecond) {
+        while(i != 2) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        }
+        printSecond();
+        i = 3;
+    }
+
+    void third(function<void()> printThird) {
+        while(i != 3) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        }
+        printThird();
+        i = 1;
+    }
+};
+
+/*
+class Foo {
     std::mutex mtx2;
     std::mutex mtx3;
 public:
@@ -25,3 +55,4 @@ public:
         mtx3.unlock();
     }
 };
+*/
