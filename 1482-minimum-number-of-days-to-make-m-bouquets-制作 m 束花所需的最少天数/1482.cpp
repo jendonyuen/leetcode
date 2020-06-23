@@ -1,3 +1,5 @@
+// 二分查找
+
 class Solution {
     int m;
     int k;
