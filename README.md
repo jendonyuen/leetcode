@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |187|  
+|C++        |188|  
 |Python3    |45 |  
 |JavaScript |4  |  
 |Java       |2  |  
