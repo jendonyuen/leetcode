@@ -12,7 +12,7 @@ My leetcode solutions.
 |Java       |2  |  
 |SQL        |1  |  
 
-#### Template problem (模板题)
+#### Template problem 
 |ID     |Tag    |Problem    |
 |-      |-      |-          |
 |[0034](./0034-find-first-and-last-position-of-element-in-sorted-array-在排序数组中查找元素的第一个和最后一个位置/)|Binary Search-二分查找|first-and-last-position-of-element-in-sorted-array<br/>在排序数组中查找元素的第一个和最后一个位置|  
@@ -30,9 +30,9 @@ My leetcode solutions.
 |[0268](./0268-missing-number-缺失数字/)                |Bit Operation-位运算              |missing-number-缺失数字             |
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit Operation-位运算              |power-of-four-4的次幂               |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit Operation-位运算<br/>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br/>从根到叶的二进制数之和 |  
-|[0046](./0046-permutations-全排列/)                        |back track-回溯法 |permutations-全排列 |  
-|[0051](./0051-n-queens-N皇后/)                             |back track-回溯法 |n-queens-N皇后      |  
-|[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索 |validate-binary-search-tree<br/>验证二叉搜索树 |  
+|[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索  |validate-binary-search-tree<br/>验证二叉搜索树   |  
+|[0046](./0046-permutations-全排列/)                        |back track-回溯法 |permutations-全排列                             |  
+|[0051](./0051-n-queens-N皇后/)                             |back track-回溯法 |n-queens-N皇后                                  |  
 |[0141](./0141-linked-list-cycle-环形链表/)                 |Fast and Slow Pointer-快慢指针 |linked-list-cycle-环形链表             |  
 |[0202](./0202-happy-number-快乐数/)                        |Fast and Slow Pointer-快慢指针 |happy-number-快乐数                    |  
 |[0234](./0234-palindrome-linked-list-回文链表/)            |Fast and Slow Pointer-快慢指针 |palindrome-linked-list-回文链表        |  
