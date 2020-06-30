@@ -30,3 +30,46 @@ public:
         return res == INT_MAX ? -1 : res;
     }
 };
+
+
+/* 周赛-超时
+class Solution {
+public:
+    int minSumOfLengths(vector<int>& arr, int target) {
+        vector<int> v(arr.size(), -1);
+        for (int i = 0; i < arr.size(); ++i) {
+            if (arr[i] == target) {
+                // pq.push(1);
+                v[i] = 1;
+                continue;
+            }
+            int t = arr[i];
+            for (int j = i + 1; j < arr.size(); ++j) {
+                t += arr[j];
+                if (t == target) {
+                    int len = j - i + 1;
+                    // pq.push(len);
+                    v[i] = len;
+                    break;
+                }
+            }
+        }
+        
+        int res = INT_MAX;
+        for (int i = 0; i < arr.size() - 1; ++i) {
+            // cout << v[i] << endl;
+            if (v[i] > 0) {
+                for (int j = i + v[i]; j < arr.size(); ++j) {
+                    if (v[j] > 0) {
+                        // cout << "find:" << v[j] << endl;
+                        res = v[i] + v[j] < res ? v[i] + v[j] : res;
+                    }
+                }
+            }
+        }
+        if (res == INT_MAX) return -1;
+        
+        return res;
+    }
+};
+*/
