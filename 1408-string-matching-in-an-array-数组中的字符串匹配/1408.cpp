@@ -31,7 +31,7 @@ public:
 };
 
 
-/*
+/* string::find()使用的是KMP算法, 速度更快
 class Solution {
 public:
     vector<string> stringMatching(vector<string>& words) {
