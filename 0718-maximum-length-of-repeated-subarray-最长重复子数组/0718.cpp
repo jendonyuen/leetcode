@@ -26,3 +26,6 @@ public:
         return res;
     }
 };
+
+// 滑动窗口
+// 原理参考https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/solution/zui-chang-zhong-fu-zi-shu-zu-by-leetcode-solution/

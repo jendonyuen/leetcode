@@ -33,6 +33,7 @@ My leetcode solutions.
 |[0098](./0098-validate-binary-search-tree-验证二叉搜索树/)  |DFS-深度优先搜索  |validate-binary-search-tree<br/>验证二叉搜索树   |  
 |[0046](./0046-permutations-全排列/)                        |back track-回溯法 |permutations-全排列                             |  
 |[0051](./0051-n-queens-N皇后/)                             |back track-回溯法 |n-queens-N皇后                                  |  
+|[0718](./0718-maximum-length-of-repeated-subarray-最长重复子数组/)|Sliding-Window-滑动窗口|maximum-length-of-repeated-subarray-最长重复子数组|  
 |[0141](./0141-linked-list-cycle-环形链表/)                 |Fast and Slow Pointer-快慢指针 |linked-list-cycle-环形链表             |  
 |[0202](./0202-happy-number-快乐数/)                        |Fast and Slow Pointer-快慢指针 |happy-number-快乐数                    |  
 |[0234](./0234-palindrome-linked-list-回文链表/)            |Fast and Slow Pointer-快慢指针 |palindrome-linked-list-回文链表        |  
