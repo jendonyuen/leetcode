@@ -1,4 +1,38 @@
 class Solution {
+    // 从左下角向右上角搜索矩阵
+    // 统计所有小于等于mid的元素个数
+    bool check(vector<vector<int>>& matrix, int k, int mid) {
+        int x = 0;
+        int y = matrix.size() - 1;
+        int num = 0;
+        while(x < matrix.size() && y >= 0) {
+            if (matrix[y][x] <= mid) {
+                num += y + 1;
+                x++;
+            } else {
+                y--;
+            }
+        }
+        return num >= k;
+    }
+public:
+    int kthSmallest(vector<vector<int>>& matrix, int k) {
+        int beg = matrix[0][0];
+        int end = matrix[matrix.size()-1][matrix[0].size()-1];
+        while(beg < end) {
+            int mid = beg + ((end - beg) >> 1);
+            if (check(matrix, k, mid)) {
+                end = mid;
+            } else {
+                beg = mid + 1;
+            }
+        }
+        return beg;
+    }
+};
+
+/*
+class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
         int rows = matrix.size();
@@ -37,3 +71,4 @@ public:
         return 0;
     }
 };
+*/
