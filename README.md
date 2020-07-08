@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |222|  
+|C++        |223|  
 |Python3    |45 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -28,6 +28,7 @@ My leetcode solutions.
 |[0221](./0221-maximal-square-最大正方形/)      |Dynamic Programming-动态规划   |maximal-square-最大正方形          |  
 |[0134](./0134-gas-station-加油站/)             |Greedy 贪心算法                |gas-station-加油站                 |  
 |[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
+|[0384](./0384-shuffle-an-array-打乱数组/)              |Fisher-Yates-洗牌算法              |shuffle-an-array-打乱数组          |
 |[0268](./0268-missing-number-缺失数字/)                |Bit Operation-位运算              |missing-number-缺失数字             |
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit Operation-位运算              |power-of-four-4的次幂               |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit Operation-位运算<br/>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br/>从根到叶的二进制数之和 |  
