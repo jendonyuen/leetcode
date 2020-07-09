@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |225|  
+|C++        |226|  
 |Python3    |46 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -27,8 +27,6 @@ My leetcode solutions.
 |[0198](./0198-house-robber-打家劫舍/)          |Dynamic Programming-动态规划   |house-robber-打家劫舍              |  
 |[0221](./0221-maximal-square-最大正方形/)      |Dynamic Programming-动态规划   |maximal-square-最大正方形          |  
 |[0134](./0134-gas-station-加油站/)             |Greedy 贪心算法                |gas-station-加油站                 |  
-|[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
-|[0384](./0384-shuffle-an-array-打乱数组/)              |Fisher-Yates-洗牌算法              |shuffle-an-array-打乱数组          |
 |[0268](./0268-missing-number-缺失数字/)                |Bit Operation-位运算              |missing-number-缺失数字             |
 |[0342](./0342-power-of-four-4的次幂/)                  |Bit Operation-位运算              |power-of-four-4的次幂               |
 |[1022](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)  |Bit Operation-位运算<br/>DFS-深度优先搜索 |sum-of-root-to-leaf-binary-numbers<br/>从根到叶的二进制数之和 |  
@@ -51,6 +49,9 @@ My leetcode solutions.
 |[0207](./0207-course-schedule-课程表/)|DAG-有向无环图<br/>Topological-Sort-拓扑排序<br/>DFS-深度优先搜索<br/>BFS-广度优先搜索|course-schedule-课程表       |  
 |[0210](./0210-course-schedule-ii-课程表II/)                          |Graph-图<br/>DFS-深度优先搜索|course-schedule-ii-课程表II                        |  
 |[1042](./1042-flower-planting-with-no-adjacent-不邻接植花/)           |Graph-图                   |flower-planting-with-no-adjacent<br/>不邻接植花     |  
+|[0218](./0218-the-skyline-problem-天际线问题/)         |Sweep Line-扫描线算法              |the-skyline-problem-天际线问题     |
+|[0382](./0382-linked-list-random-node-链表随机节点/)   |Reservoir Sampling-蓄水池抽样      |linked-list-random-node-链表随机节点|
+|[0384](./0384-shuffle-an-array-打乱数组/)              |Fisher-Yates-洗牌算法              |shuffle-an-array-打乱数组          |
 |[0365](./0365-water-and-jug-problem-水壶问题/)                        |Euclidean Algorithm-辗转相除法 |water-and-jug-problem-水壶问题                              |  
 |[1071](./1071-greatest-common-divisor-of-strings-字符串的最大公因子/)  |Euclidean Algorithm-辗转相除法 |greatest-common-divisor-of-strings<br/>字符串的最大公因子     |  
 |[0069](./0069-sqrtx-x的平方根/)                                       |Newton's method-牛顿迭代法     |sqrtx-x的平方根              |
