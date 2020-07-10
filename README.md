@@ -6,7 +6,7 @@ My leetcode solutions.
 #### Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |231|  
+|C++        |234|  
 |Python3    |46 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -44,8 +44,11 @@ My leetcode solutions.
 |[0102](./0102-binary-tree-level-order-traversal-二叉树的层序遍历/)    |Binary Tree-二叉树          |binary-tree-level-order-traversal<br/>二叉树的层序遍历 |  
 |[0105](./0105-construct-binary-tree-from-preorder-and-inorder-traversal-从前序与中序遍历序列构造二叉树/)    |Binary Tree-二叉树          |construct-binary-tree-from-preorder-and-inorder-traversal<br/>从前序与中序遍历序列构造二叉树 |  
 |[0208](./0208-implement-trie-prefix-tree-实现前缀树/)                |Trie Prefix Tree-前缀树      | implement-trie-prefix-tree-实现前缀树             | 
+|[0212](./0212-word-search-ii-单词搜索II/)                            |Trie Tree-字典树             | word-search-ii-单词搜索II                         |
 |[0146](./0146-lru-cache-LRU-缓存机制/)                               |Double Linked List-双向链表 |lru-cache-LRU-缓存机制                              |
 |[1046](./1046-last-stone-weight-最后一块石头的重量/)                  |Heap-堆                     |last-stone-weight-最后一块石头的重量               |  
+|[0150](./0150-evaluate-reverse-polish-notation-逆波兰表达式求值/)     |Stack-栈                    |evaluate-reverse-polish-notation-逆波兰表达式求值  |  
+|[1046](./0227-basic-calculator-ii-基本计算器II/)                      |Stack-栈                    |basic-calculator-ii-基本计算器II                  |  
 |[0207](./0207-course-schedule-课程表/)|DAG-有向无环图<br/>Topological-Sort-拓扑排序<br/>DFS-深度优先搜索<br/>BFS-广度优先搜索|course-schedule-课程表       |  
 |[0210](./0210-course-schedule-ii-课程表II/)                          |Graph-图<br/>DFS-深度优先搜索|course-schedule-ii-课程表II                        |  
 |[1042](./1042-flower-planting-with-no-adjacent-不邻接植花/)           |Graph-图                   |flower-planting-with-no-adjacent<br/>不邻接植花     |  
