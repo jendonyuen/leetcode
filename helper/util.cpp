@@ -41,3 +41,10 @@ string getLine(vector<int>& p1, vector<int>& p2) {
     return mod((a-c), a)+","+mod((b-c), a);                                 // 返回a,b
     
 }
+
+// 结果对 10^9 + 7 取模
+fmod(res, 1000000007);
+/*
+const int kMOD = 1e9 + 7;
+res %= kMOD;
+*/
