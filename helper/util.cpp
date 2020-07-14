@@ -42,9 +42,16 @@ string getLine(vector<int>& p1, vector<int>& p2) {
     
 }
 
-// 结果对 10^9 + 7 取模
+// 对10^9 + 7 取模
 fmod(res, 1000000007);
 /*
 const int kMOD = 1e9 + 7;
 res %= kMOD;
 */
+
+
+// 辗转相除法求最大公因数
+int gcd(int a, int b) {
+    if (a < b) std::swap(a, b);
+    return b == 0 ? a : gcd(b, a % b);
+}
