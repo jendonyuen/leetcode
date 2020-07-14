@@ -22,6 +22,7 @@ My leetcode solutions.
 |[0148](./0148-sort-list-排序链表/)             |Merge Sort-归并排序            |sort-list-排序链表                 |
 |[0063](./0063-unique-paths-ii-不同路径II/)     |Dynamic Programming-动态规划   |unique-paths-ii-不同路径II         |  
 |[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic Programming-动态规划   |climbing-stairs-爬楼梯             | 
+|[0120](./0120-triangle-三角形最小路径和/)       |Dynamic Programming-动态规划   |triangle-三角形最小路径和          | 
 |[0139](./0139-word-break-单词拆分/)            |Dynamic Programming-动态规划   |word-break-单词拆分                | 
 |[0174](./0174-dungeon-game-地下城游戏/)        |Dynamic Programming-动态规划   |dungeon-game-地下城游戏            |  
 |[0198](./0198-house-robber-打家劫舍/)          |Dynamic Programming-动态规划   |house-robber-打家劫舍              |  
