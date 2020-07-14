@@ -22,6 +22,7 @@ My leetcode solutions.
 |[0148](./0148-sort-list-排序链表/)             |Merge Sort-归并排序            |sort-list-排序链表                 |
 |[0063](./0063-unique-paths-ii-不同路径II/)     |Dynamic Programming-动态规划   |unique-paths-ii-不同路径II         |  
 |[0070](./0070-climbing-stairs-爬楼梯/)         |Dynamic Programming-动态规划   |climbing-stairs-爬楼梯             | 
+|[0120](./0120-triangle-三角形最小路径和/)       |Dynamic Programming-动态规划   |triangle-三角形最小路径和          | 
 |[0139](./0139-word-break-单词拆分/)            |Dynamic Programming-动态规划   |word-break-单词拆分                | 
 |[0174](./0174-dungeon-game-地下城游戏/)        |Dynamic Programming-动态规划   |dungeon-game-地下城游戏            |  
 |[0198](./0198-house-robber-打家劫舍/)          |Dynamic Programming-动态规划   |house-robber-打家劫舍              |  
@@ -59,7 +60,7 @@ My leetcode solutions.
 |[1071](./1071-greatest-common-divisor-of-strings-字符串的最大公因子/)  |Euclidean Algorithm-辗转相除法 |greatest-common-divisor-of-strings<br/>字符串的最大公因子     |  
 |[0069](./0069-sqrtx-x的平方根/)                                       |Newton's method-牛顿迭代法     |sqrtx-x的平方根              |
 |[1483](./1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先/)         |Doubly-倍增                   |kth-ancestor-of-a-tree-node<br/>树节点的第 K 个祖先 |  
-|[0239](./0239-sliding-window-maximum-滑动窗口最大值/)                 |Sliding-Window-滑动窗口        |sliding-window-maximum-滑动窗口最大值 |  
+|[0239](./0239-sliding-window-maximum-滑动窗口最大值/)|Sliding Window-滑动窗口<br/>Double Ended Queue-双端队列<br/>Dynamic Programming-动态规划|sliding-window-maximum-滑动窗口最大值 |  
 |[0175](./0175-combine-two-tables-组合两个表/)                         |SQL                           |combine-two-tables-组合两个表 |  
 |[0183](./0183-customers-who-never-order-从不订购的客户表/)             |SQL                           |customers-who-never-order-从不订购的客户表 |  
 
