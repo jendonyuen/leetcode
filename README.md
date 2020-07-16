@@ -98,7 +98,7 @@ My leetcode solutions.
 
 |Trie Prefix Tree 前缀树|  
 |-| 
-|[-implement-trie-prefix-tree-实现前缀树](./0208-implement-trie-prefix-tree-实现前缀树/)|  
+|[0208-implement-trie-prefix-tree-实现前缀树](./0208-implement-trie-prefix-tree-实现前缀树/)|  
 
 |Trie Tree 字典树|  
 |-|  
