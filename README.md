@@ -6,7 +6,7 @@ My leetcode solutions.
 ## Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |257|  
+|C++        |258|  
 |Python3    |46 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -77,10 +77,10 @@ My leetcode solutions.
 |[0227-basic-calculator-ii-基本计算器II](./0227-basic-calculator-ii-基本计算器II/)                      |  
 |**Double Ended Queue 双端队列**|   
 |[0239-sliding-window-maximum-滑动窗口最大值](./0239-sliding-window-maximum-滑动窗口最大值/)|  
-|**DAG 有向无环图**|  
-|[0207-course-schedule-课程表](./0207-course-schedule-课程表/)|  
 |**Graph 图**|  
 |[1042-flower-planting-with-no-adjacent-不邻接植花](./1042-flower-planting-with-no-adjacent-不邻接植花/)|  
+|**Directed Acyclic Graph 有向无环图**|  
+|[0207-course-schedule-课程表](./0207-course-schedule-课程表/)|  
 |**Sweep Line 扫描线算法**|  
 |[0218-the-skyline-problem-天际线问题](./0218-the-skyline-problem-天际线问题/)|  
 |**Reservoir Sampling 蓄水池抽样**|  
