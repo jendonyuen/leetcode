@@ -16,6 +16,7 @@ My leetcode solutions.
 |----------------|  
 |**Binary Search 二分查找**|  
 |[0034-find-first-and-last-position-of-element-in-sorted-array-在排序数组中查找元素的第一个和最后一个位置](./0034-find-first-and-last-position-of-element-in-sorted-array-在排序数组中查找元素的第一个和最后一个位置/)|
+|[0035-search-insert-position-搜索插入位置](./0035-search-insert-position-搜索插入位置/)|
 |[0050-powx-n-Pow(x,n)](./0050-powx-n-Pow(x,n)/)|
 |[0074-search-a-2d-matrix-搜索二维矩阵](./0074-search-a-2d-matrix-搜索二维矩阵/)|
 |**Quick Sort 快速排序**|  
