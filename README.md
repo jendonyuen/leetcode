@@ -47,6 +47,7 @@ My leetcode solutions.
 |[0207-course-schedule-课程表](./0207-course-schedule-课程表/)|
 |[1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/) |
 |**Breadth First Search 广度优先搜索**|
+|[0111-minimum-depth-of-binary-tree-二叉树的最小深度](./0111-minimum-depth-of-binary-tree-二叉树的最小深度/)|
 |[0127-word-ladder-单词接龙](./0127-word-ladder-单词接龙/)|  
 |[0207-course-schedule-课程表](./0207-course-schedule-课程表/)|
 |**Bit Operation 位运算**|  
