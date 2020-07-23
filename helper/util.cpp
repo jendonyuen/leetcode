@@ -55,3 +55,25 @@ int gcd(int a, int b) {
     if (a < b) std::swap(a, b);
     return b == 0 ? a : gcd(b, a % b);
 }
+
+
+// 求数据流的中位数
+class MedianFinder {
+    multiset<int> mts;
+    multiset<int>::iterator mid;
+public:
+    void addNum(int num) {
+        mts.insert(num);
+        if (mts.size() == 1) {
+            mid = mts.begin();
+        } else if (mts.size() & 1) {
+            if (num >= *mid) mid++;
+        } else {
+            if (num < *mid) mid--;
+        }
+    }
+    
+    double findMedian() {
+        return mts.size() & 1 ? *mid : (*mid + *next(mid)) * 0.5;
+    }
+};
