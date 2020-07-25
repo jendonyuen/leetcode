@@ -19,6 +19,7 @@ My leetcode solutions.
 |[0035-search-insert-position-搜索插入位置](./0035-search-insert-position-搜索插入位置/)|
 |[0050-powx-n-Pow(x,n)](./0050-powx-n-Pow(x,n)/)|
 |[0074-search-a-2d-matrix-搜索二维矩阵](./0074-search-a-2d-matrix-搜索二维矩阵/)|
+|[0410-split-array-largest-sum-分割数组的最大值](./0410-split-array-largest-sum-分割数组的最大值/)|
 |**Quick Sort 快速排序**|  
 |[0912-sort-an-array-排序数组](./0912-sort-an-array-排序数组/)|
 |**Merge Sort 归并排序**|  
