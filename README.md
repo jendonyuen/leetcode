@@ -6,7 +6,7 @@ My leetcode solutions.
 ## Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |266|  
+|C++        |278|  
 |Python3    |46 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -55,7 +55,7 @@ My leetcode solutions.
 |[0268-missing-number-缺失数字](./0268-missing-number-缺失数字/)                |
 |[0342-power-of-four-4的次幂](./0342-power-of-four-4的次幂/)                    |
 |[1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和](./1022-sum-of-root-to-leaf-binary-numbers-从根到叶的二进制数之和/)|
-|**Double Pointer-双指针**|  
+|**Double Pointer 双指针**|  
 |[0160-intersection-of-two-linked-lists-相交链表](./0160-intersection-of-two-linked-lists-相交链表/)    |
 |[0206-reverse-linked-list-反转链表](./0206-reverse-linked-list-反转链表/)                              |
 |**Fast and Slow Pointer 快慢指针**|  
@@ -97,6 +97,8 @@ My leetcode solutions.
 |[0069-sqrtx-x的平方根](./0069-sqrtx-x的平方根/)
 |**Doubly 倍增**|  
 |[1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先](./1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先/)
+|**Subsequence 子序列**|
+|[0392-is-subsequence-判断子序列](./0392-is-subsequence-判断子序列/)|
 |**SQL**|  
 |[0175-combine-two-tables-组合两个表](./0175-combine-two-tables-组合两个表/)|
 |[0183-customers-who-never-order-从不订购的客户表](./0183-customers-who-never-order-从不订购的客户表/)|
