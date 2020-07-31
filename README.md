@@ -6,7 +6,7 @@ My leetcode solutions.
 ## Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |288|  
+|C++        |289|  
 |Python3    |46 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -38,8 +38,9 @@ My leetcode solutions.
 |**Greedy 贪心算法**|  
 |[0134-gas-station-加油站](./0134-gas-station-加油站/)    |
 |**Back Track 回溯法**|  
-|[0046-permutations-全排列](./0046-permutations-全排列/)  |
-|[0051-n-queens-N皇后](./0051-n-queens-N皇后/)            |
+|[0039-combination-sum-组合总和](./0039-combination-sum-组合总和/)  |
+|[0046-permutations-全排列](./0046-permutations-全排列/)            |
+|[0051-n-queens-N皇后](./0051-n-queens-N皇后/)                      |
 |**Sliding Window 滑动窗口**|  
 |[0239-sliding-window-maximum-滑动窗口最大值](./0239-sliding-window-maximum-滑动窗口最大值/)|  
 |[0718-maximum-length-of-repeated-subarray-最长重复子数组](./0718-maximum-length-of-repeated-subarray-最长重复子数组/)|  
