@@ -1,6 +1,45 @@
 // ref:
 // https://leetcode-cn.com/problems/course-schedule/solution/course-schedule-tuo-bu-pai-xu-bfsdfsliang-chong-fa/
 
+// 2020-08-04 每日一题-重做拓扑排序, 排序结果可参考第210题
+class Solution {
+public:
+    // 拓扑排序: 前置依赖课程数为0(入度为0)的课程入队
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<int> courseReq(numCourses, 0);   // 统计每门课的前置依赖课程数
+        vector<vector<int>> table(numCourses);  // 邻接表 [前置课程] = [后置课程1, 后置课程2, ...]
+        
+        // 构建两个表
+        for (auto &pre: prerequisites) {
+            courseReq[pre[0]]++;
+            table[pre[1]].push_back(pre[0]);
+        }
+
+        queue<int> que;
+        // 遍历courseReq, 将前置课程数为0(入度为0)的课程入队
+        for (int i = 0; i < courseReq.size(); ++i) {
+            if (courseReq[i] == 0) {
+                que.push(i);
+                numCourses--;
+            }
+        }
+
+        // 将队内元素(课程)弹出, 搜索对应邻接表, 将新的入度为0的元素(前置课程数为0的课程)入队
+        while (!que.empty()) {
+            int i = que.front();
+            que.pop();
+            for (auto &course: table[i]) {
+                if (--courseReq[course] == 0) {
+                    que.push(course);
+                    numCourses--;
+                }
+            }
+        }
+
+        return numCourses == 0;
+    }
+};
+
 // 入度表BFS, 拓扑排序
 // 课程的入度为前置依赖的课程数量, 若入度为0则入队
 class Solution {
