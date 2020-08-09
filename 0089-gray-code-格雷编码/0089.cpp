@@ -1,3 +1,21 @@
+// 位运算
+// ref:https://leetcode-cn.com/problems/gray-code/solution/ge-lei-bian-ma-ji-jian-di-gui-fa-by-zoffer/
+class Solution {
+public:
+    vector<int> grayCode(int n) {
+        vector<int> res = {0};
+        for (int i = 1; i <= n; ++i) {
+            for (int j = res.size() - 1; j >= 0; --j) {
+                // 将1左移i-1位得到 100... 和 xx...做与运算
+                int cur = res[j] | 1 << (i - 1);    
+                res.push_back(cur);
+            }
+        }
+        return res;
+    }
+};
+
+// old
 class Solution {
     int binaryStringToInt(string &s) {
         int res = 0;
