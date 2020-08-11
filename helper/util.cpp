@@ -13,6 +13,10 @@ int gcd(int a, int b) {
     return b == 0 ? a : gcd(b, a % b);
 }
 
+// 随机函数使用时间初始化种子
+srand((unsigned)time(NULL));
+// 从[l, r]之间随机选择一个
+int i = rand % (r - l + 1) + l; 
 
 // 字符串除法, 保留20位小数
 string mod(int numerator, int denominator, int n = 20) {
