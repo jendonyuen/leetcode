@@ -1,3 +1,43 @@
+// 2020-08-11 每日一题
+class Solution {
+    vector<vector<int>> searched;
+    int ySize, xSize;
+    void dfs(vector<vector<char>>& board, int y, int x, char& c) {
+        if (y < 0 || x < 0 || y >= ySize || x >= xSize) return;
+        if (searched[y][x]) return;
+        searched[y][x] = 1;
+        if (board[y][x] == 'O') board[y][x] = c;
+        else return;
+        dfs(board, y+1, x, c);
+        dfs(board, y, x+1, c);
+        dfs(board, y-1, x, c);
+        dfs(board, y, x-1, c);
+    }
+public:
+    void solve(vector<vector<char>>& board) {
+        if (board.empty() || board[0].empty()) return;
+        ySize = board.size();
+        xSize = board[0].size();
+        searched.resize(ySize, vector<int>(xSize, 0));
+        // search edge
+        char t = 'O';
+        for (int y = 0; y < ySize; ++y) dfs(board, y, 0, t);
+        for (int x = 1; x < xSize; ++x) dfs(board, 0, x, t);
+        for (int y = 1; y < ySize; ++y) dfs(board, y, xSize - 1, t);
+        for (int x = 1; x < xSize; ++x) dfs(board, ySize - 1, x, t);
+
+        // traverse inside
+        t = 'X';
+        for (int y = 1; y < ySize - 1; ++y) {
+            for (int x = 1; x <xSize - 1; ++x) {
+                if (!searched[y][x]) board[y][x] = t;
+            }
+        }
+    }
+};
+
+
+// old
 class Solution {
     int ySize, xSize;
     vector<vector<int>> searched;
