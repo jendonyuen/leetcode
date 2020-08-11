@@ -22,6 +22,8 @@ My leetcode solutions.
 |[0410-split-array-largest-sum-分割数组的最大值](./0410-split-array-largest-sum-分割数组的最大值/)|
 |**Quick Sort 快速排序**|  
 |[0912-sort-an-array-排序数组](./0912-sort-an-array-排序数组/)|
+|**Heap Sort 堆排序**|  
+|[0912-sort-an-array-排序数组](./0912-sort-an-array-排序数组/)|
 |**Merge Sort 归并排序**|  
 |[0148-sort-list-排序链表](./0148-sort-list-排序链表/)|
 |**Topological-Sort-拓扑排序**|  

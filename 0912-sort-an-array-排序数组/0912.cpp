@@ -1,5 +1,6 @@
 // 2020-08-11 update
 // 随机划分快排
+// ref: https://leetcode-cn.com/problems/sort-an-array/solution/pai-xu-shu-zu-by-leetcode-solution/
 class Solution {
     int partition(vector<int>& nums, int l, int r) {
         int pivot = nums[r];
@@ -36,6 +37,60 @@ public:
     }
 };
 
+/*
+ref: https://leetcode-cn.com/problems/sort-an-array/solution/pai-xu-shu-zu-by-leetcode-solution/
+堆排序
+用数组建堆, 数组索引按树的从上往下, 从左往右排布
+*/
+class Solution {
+    // 对i结点进行堆化(前提是i的子节点以后的元素均已堆化)
+    void heapify(vector<int>& nums, int i, int len) {
+        for (; (i << 1) + 1 <= len;) {  // 访问[i]节点的左子节点和右子节点
+            int lson = (i << 1) + 1;    // left child
+            int rson = (i << 1) + 2;    // right child
+            int large;                  // 将large指向i, lson, rson三个中最大的元素
+            if (lson <= len && nums[lson] > nums[i]) {
+                large = lson;
+            } else {
+                large = i;
+            }
+            if (rson <= len && nums[rson] > nums[large]) {
+                large = rson;
+            }
+            
+            if (large != i) {               // 如果i节点不是值最大的元素
+                swap(nums[i], nums[large]); // 通过交换, 将i节点改为值最大(大根堆)的元素 
+                i = large;                  // 交换后, 可能破坏堆的性质, 递归调用, 树转移至下一层
+            }
+            else break;
+        }
+    } 
+
+    // 建堆
+    void buildHeap(vector<int>& nums, int len) {
+        // 从下往上建堆, 起点为最后一个非叶子节点(len/2)
+        for (int i = len / 2; i >= 0; --i) {
+            heapify(nums, i, len);
+        }
+    }
+
+    // 堆排序, 依次将堆顶元素放到末尾, 剩余元素重新堆化
+    void sortHeap(vector<int>& nums) {
+        int len = nums.size() - 1;          // len指向末尾
+        for (int i = len; i >= 1; --i) {
+            swap(nums[i], nums[0]);         // 将堆顶元素交换至len位置
+            len -= 1;
+            heapify(nums, 0, len);          // 对堆顶元素重新堆化
+        }
+    }
+
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        buildHeap(nums, nums.size() - 1);
+        sortHeap(nums);
+        return nums;
+    }
+};
 
 // old
 class Solution {
