@@ -67,9 +67,10 @@ class Solution {
     } 
 
     // 建堆
-    void buildHeap(vector<int>& nums, int len) {
+    void buildHeap(vector<int>& nums) {
+        int len = nums.size() - 1;
         // 从下往上建堆, 起点为最后一个非叶子节点(len/2)
-        for (int i = len / 2; i >= 0; --i) {
+        for (int i = len >> 1; i >= 0; --i) {
             heapify(nums, i, len);
         }
     }
@@ -86,7 +87,7 @@ class Solution {
 
 public:
     vector<int> sortArray(vector<int>& nums) {
-        buildHeap(nums, nums.size() - 1);
+        buildHeap(nums);
         sortHeap(nums);
         return nums;
     }

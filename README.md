@@ -6,7 +6,7 @@ My leetcode solutions.
 ## Statistics  
 |language   |num|  
 |-----------|---|
-|C++        |307|  
+|C++        |308|  
 |Python3    |46 |  
 |JavaScript |4  |  
 |Java       |2  |  
@@ -84,6 +84,7 @@ My leetcode solutions.
 |**Double Ended Queue 双端队列**|   
 |[0239-sliding-window-maximum-滑动窗口最大值](./0239-sliding-window-maximum-滑动窗口最大值/)|  
 |**Graph 图**|  
+|[0133-clone-graph-克隆图](./0133-clone-graph-克隆图/)|
 |[1042-flower-planting-with-no-adjacent-不邻接植花](./1042-flower-planting-with-no-adjacent-不邻接植花/)|  
 |**Directed Acyclic Graph 有向无环图**|  
 |[0207-course-schedule-课程表](./0207-course-schedule-课程表/)|  
@@ -102,6 +103,8 @@ My leetcode solutions.
 |[1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先](./1483-kth-ancestor-of-a-tree-node-树节点的第K个祖先/)
 |**Subsequence 子序列**|
 |[0392-is-subsequence-判断子序列](./0392-is-subsequence-判断子序列/)|
+|**Inverted Index 倒排索引**|
+|[1452-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list-收藏清单](./1452-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list-收藏清单/)|
 |**SQL**|  
 |[0175-combine-two-tables-组合两个表](./0175-combine-two-tables-组合两个表/)|
 |[0183-customers-who-never-order-从不订购的客户表](./0183-customers-who-never-order-从不订购的客户表/)|
