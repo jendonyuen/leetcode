@@ -77,7 +77,36 @@ string addStrings(string num1, string num2) {
     reverse(res.begin(), res.end());
     return res;
 }
-
+// 字符串乘法(需调用字符串加法!!!)
+string multiply(string num1, string num2) {
+        int n1 = num1.size(), n2 = num2.size();
+        string res = "0";
+        res.reserve(220);
+        int carry = 0, d = n2 - n1, times = 0;
+        for (int j = n2 - 1; j >= 0; --j) {
+            string cur;
+            for (int i = n1 - 1; i >= 0; --i) {
+                int t = (num1[i] - '0') * (num2[j] - '0') + carry;
+                carry = 0;
+                if (t >= 10) {
+                    carry = t / 10;
+                    t = t % 10;
+                }
+                cur.push_back(t + '0');
+            }
+            // 遍历剩余carry
+            while (carry > 0) {
+                int t = carry % 10;
+                cur.push_back(t + '0');
+                carry /= 10;
+            }
+            reverse(cur.begin(), cur.end());
+            for (int i = 0; i < times; ++i) cur.push_back('0'); // 补0
+            times++;
+            res = addStrings(res, cur);      // 与之前结果相加
+        }
+        return res[0] == '0' ? "0" : res;
+    }
 
 // 求过两点的直线
 // Ax + By + C = 0
